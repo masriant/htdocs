@@ -1,0 +1,123 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: #34495e;
+}
+ 
+.by{
+	text-align: center;
+	color: white;
+	font-size: 10px;
+}
+.by a{
+	color: green;
+	text-decoration:none; 
+}
+.by a:hover{
+	color: white;
+}
+.kotak{
+	width: 500px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #191919;
+	text-align: center;
+}
+ 
+.border{
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #3498db;
+	border-radius: 24px;
+	color: white;
+}
+ 
+h2{
+	color: white;
+}
+ 
+.inputan input[type = "number"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #3498db;
+	border-radius: 24px;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	transition: 0.25s;
+}
+ 
+.inputan input[type = "number"]:focus{
+	width: 280px;
+	border-color: #2ecc71;
+}
+
+.inputan input[type = "number"]:focus{
+	width: 280px;
+	border-color: #b22ecc;
+}
+ 
+.inputan input[type = "submit"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	border-radius: 24px;
+	padding: 14px 40px;
+	outline: none;
+	color: white;
+	transition: 0.25s;
+	cursor: pointer;
+}
+ 
+.hasil {
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	border-radius: 24px;
+	padding: 14px 40px;
+	outline: none;
+	color: white;
+	transition: 0.25s;
+}
+
+
+.kotak1{
+	width: 500px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #E6E6FA;
+	text-align: center;
+}
+
+.java input[type = "number"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #3498db;
+	border-radius: 24px;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	transition: 0.25s;
+}
